@@ -1,0 +1,25 @@
+INSERT INTO shelfie
+	(isbn, title, name_first, name_last, publisher, date_publication, binding, notes) 
+VALUES 
+	(9780140112917, 'In Patagonia', 'Bruce', 'Chatwin', 'Penguin', 1988-12-01, 'Softcover', 'Account of author''s journey through the southern tip of South America.'),
+	(9780520203853, 'Robert Smithson: The Collected Writings', 'Jack', 'Flam', 'University of California Press', 1996-12-01, 'Softcover', 'Thoughts on art and culture from one of the most important artists of the twentieth century.'),
+	(9780312275426, 'Being Dead', 'Jim', 'Crace', 'Picador', 2001-12-01, 'Softcover', 'The natural world had flooded back. The brightness of the universe returned.'),
+	(9781933128559, 'Solution 11-167: The Book of Scotlands', 'Nick', 'Curie', 'Lukas & Sternberg', 2009-01-01, 'Softcover', 'Every lie creates a parallel world. The world in which it is true.'),
+	(9780374522599, 'The Control of Nature', 'John', 'McPhee', 'Farrar, Straus and Giroux', 1990-12-01, 'Softcover', 'Account of places in the world where people have been engaged in all-out battles with nature.'),
+	(9780226898728, 'Forever Open, Clear, and Free', 'Lois', 'Wille', 'University of Chicago Press', 1991-12-01, 'Softcover', 'Serves as a warning to anyone who thinks the struggle for the lakefront is over.'),
+	(9780786886401, 'The Frozen Water Trade: A True Story', 'Gavin', 'Weightman', 'Hachette Books', 2004-12-01, 'Softcover', 'How to make a fortune selling ice to people in the tropics.'),
+	(9780140178241, 'Cadillac Desert: The American West and Its Disappearing Water', 'Marc', 'Reisner', 'Penguin Books', 1993-12-01, 'Softcover', 'The story of the American West is the story of a relentless quest for a precious resource: water.'),
+	(9780374518738, 'Annals of the Former World', 'John', 'McPhee', 'W. W. Norton & Company', 2000-12-01, 'Softcover', 'Account of the deep history of the North American continent.'),
+	(9780300033359, 'The Trevi Fountain', 'John', 'Pinto', 'Yale University Press', 1986-12-01, 'Hardcover', 'The history of the Trevi Fontain is bound up with the history and fabric of Rome itself.'),
+	(9780871403629, 'The Drowned World', 'J.G.', 'Ballard', 'Liveright Publishing Corporation', 2013-05-20, 'Softcover', 'Soon it would be too hot.'),
+    (9781935935322, 'Cities Without Ground', 'Jonathan', 'Solomon', 'ORO Editions', 2012-12-01, 'Softcover', 'Distances that seemed vast experientially turn out to be compact'),
+    (9780300155303, 'The Waters of Rome', 'Katherine', 'Rinne', 'Yale University Press', 2011-12-01, 'Hardcover', 'How public works projects transformed Rome in a successful mariage of innovative engineering and strategic urban planning.'),
+    (9780811226158, 'The Rings of Saturn', 'W.G.', 'Sebald', 'New Directions', 2016-12-01, 'Softcover', ''),
+    (9780375421990, 'In Ruins', 'Christopher', 'Woodward', 'Pantheon', 2002-12-01, 'Hardcover', ''),
+    (9780231084192, 'Against the Tide', 'Cornelia', 'Dean', 'Columbia University Press', 2001-12-01, 'Softcover', ''),
+    (9780609608449, 'The Devil in the White City', 'Erik', 'Larson', 'Crown', 2003-12-01, 'Hardcover', ''),
+    (9780449003718, 'The Orchid Thief: A True Story of Beauty and Obsession', 'Susan', 'Orlean', 'Ballantine Books', 2000-12-01, 'Softcover', ''),
+    (9783037782231, 'Landform Building', 'Stan', 'Allen', 'Lars Müller', 2011-12-01, 'Hardcover', ''),
+    (9780967914398, 'The Crazannes Quarries', 'Michel', 'Conan', 'Spacemaker Press', 2006-12-01, 'Softcover', ''),
+    (9781568984841, '306090-07: Landscape within Architecture', 'David', 'Hays', 'Princeton Architectural Press', 2004-12-01, 'Softcover', ''),
+    (9780944722107, 'The Age of the Marvelous', 'Joy', 'Kenseth', 'Hood Museum of Art', 1992-12-01, 'Softcover', '')

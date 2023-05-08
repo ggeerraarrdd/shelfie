@@ -1,0 +1,10 @@
+Shelfie! is a management system for personal home libraries. It is written in Python using the Tkinter module with a bit of SQL thrown in.
+
+You can browse, add, update and delete records saved a SQLite database.
+
+It is a project by Gerard Bul-lalayao for IS 411: Intro to Programming for Business Application (Autumn 2022).
+
+
+
+Fron­tispiece:
+No. 159 - "La Bibliothèque: Vue plongeante". Image taken from Andrew Fitch, "Erik Desmazières: Etchings 1991-2001" (New York: Fitch-Febvrel Gallery, 2001)
