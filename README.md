@@ -15,7 +15,7 @@ More screenshots below.
 ### Requirements
 _Assignment brief (as of Autumn 2022)_
 
-\[Intentionally not included.\]
+\[Not posted.\]
 
 ### Personal Goals
 Apart from what was to be gained from implementing the requirements, this project was used as a vehicle to further learn and/or practice the following:
