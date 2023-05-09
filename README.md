@@ -55,9 +55,9 @@ $ python shelfie.py
     * November 21, 2022
     * Version submitted for final project assignment
 
-## Future Roadmap
+## Future Work
 * Clean up code
-* Create a web version use a web framework (Flask, Django)
+* Create a web version using a web framework (Flask, Django)
 
 ## License
 * [MIT License](https://github.com/ggeerraarrdd/large-parks/blob/main/LICENSE)
