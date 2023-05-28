@@ -56,8 +56,8 @@ $ python shelfie.py
     * Version submitted for final project assignment
 
 ## Future Work
-* ~~Clean up code~~ _(Update May 28, 2023: Code too unwieldy, so leaving Tkinker version behind and moving on to the web version from scratch.)_
-* Create a web version using a web framework (Flask, Django)
+* ~~Clean up code~~ _(Update May 28, 2023: Code too unwieldy, so leaving Tkinter version behind and moving on to the web version from scratch.)_
+* Create a web version using a web framework (Flask or Django)
 
 ## License
 * [MIT License](https://github.com/ggeerraarrdd/large-parks/blob/main/LICENSE)
