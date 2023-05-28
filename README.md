@@ -56,7 +56,7 @@ $ python shelfie.py
     * Version submitted for final project assignment
 
 ## Future Work
-* Clean up code
+* ~~Clean up code~~ _(Update May 28, 2023: Code too unwieldy, so leaving Tkinker version behind and moving on to the web version from scratch.)_
 * Create a web version using a web framework (Flask, Django)
 
 ## License
