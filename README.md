@@ -11,7 +11,7 @@ This was submitted as the final project for IS411: Intro to Programming for Busi
 More screenshots below.
 
 ## Disclaimer
-All contents in this repo are for educational purposes only.
+ALL CONTENTS IN THIS REPO ARE FOR EDUCATIONAL PURPOSES ONLY.
 
 ## Learning Objectives
 
