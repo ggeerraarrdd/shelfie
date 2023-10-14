@@ -49,12 +49,12 @@ $ python shelfie.py
 * [@ggeerraarrdd](https://github.com/ggeerraarrdd/)
 
 ## Version History
-* 0.3
+* 2.0.0
     * May 7, 2023
     * Changed database to SQLite from PostgreSQL
     * Changed frontispiece
     * Updated about.txt
-* 0.2
+* 1.0.0
     * November 21, 2022
     * Version submitted for final project assignment
 
