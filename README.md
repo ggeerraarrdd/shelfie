@@ -60,7 +60,7 @@ $ python shelfie.py
 
 ## Future Work
 * ~~Clean up code~~ _(Update May 28, 2023: Code too unwieldy, so leaving Tkinter version behind and moving on to the web version from scratch.)_
-* Create a web version using a web framework (Flask or Django)
+* ~~Create a web version using a web framework (Flask or Django)~~ _(Update Oct 14, 2023: Github does not need another book management system repo)_
 
 ## License
 * [MIT License](https://github.com/ggeerraarrdd/large-parks/blob/main/LICENSE)
