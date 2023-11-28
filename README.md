@@ -1,6 +1,6 @@
 # Shelfie
 
-Library Management System using Tkinter in Python
+A library management system using Tkinter in Python
 
 ## Description
 
@@ -48,11 +48,7 @@ Click `Sign in` with the provided login credentials.
 
 ### Initial Release
 
-The initial release of _Shelfie!_ was submitted as the final project for IS411: Introduction to Programming for Business Applications (DePaul University, Autumn 2022). That version used a PostgreSQL database instance hosted on AWS and the psycopg2 library.
-
-Project brief as of Autumn 2022:
-
-\[Not posted.\]
+The initial release of _Shelfie!_ was submitted as the final project for [IS 411: Introduction to Programming for Business Applications](https://www.cdm.depaul.edu/academics/pages/courseinfo.aspx?Subject=IS&CatalogNbr=411) (DePaul University, Autumn 2022). That version used a PostgreSQL database instance hosted on AWS and the psycopg2 library.
 
 ### Future Work
 
