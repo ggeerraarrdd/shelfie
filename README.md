@@ -25,6 +25,8 @@ More screenshots below.
   * [Usage](#usage)
 * [Author(s)](#authors)
 * [Version History](#version-history)
+  * [Release Notes](#release-notes)
+  * [Initial Release](#initial-release)
 * [Future Work](#future-work)
 * [License](#license)
 * [Acknowledgments](#acknowledgments)
