@@ -6,7 +6,7 @@ Library Management System using Tkinter in Python
 
 _Shelfie!_ is a GUI for a simple personal home library management system, built using the Tkinter library in Python. You can browse, add, update and delete book records saved on a SQLite database.
 
-![Shelfie](images/shelfie_1.png)
+![Shelfie](docs/images/shelfie_1.png)
 
 More screenshots below.
 
@@ -71,5 +71,5 @@ No ongoing development.
 
 ## Screenshots
 
-![Shelfie](images/shelfie_2.png)
-![Shelfie](images/shelfie_3.png)
+![Shelfie](docs/images/shelfie_2.png)
+![Shelfie](docs/images/shelfie_3.png)

@@ -1,9 +1,20 @@
+# Python Standard Library
 from tkinter import *
-from PIL import ImageTk, Image
 from tkinter import messagebox, ttk, font
-from local_settings import shelfie as settings
 import logging
 import sqlite3
+
+# Third-Party Libraries
+from PIL import ImageTk, Image
+
+# Local
+from local_settings import shelfie as settings
+
+
+
+
+
+
 
 
 class Shelfie:
@@ -21,7 +32,7 @@ class Shelfie:
         frame_1.place(x=0, y=0, width=1000, relheight=1)
 
         # Content in Main Frame
-        self.image = ImageTk.PhotoImage(Image.open('images/library.png'))
+        self.image = ImageTk.PhotoImage(Image.open('assets/images/library.png'))
         splash = Label(image=self.image)
         splash.place(x=-5, y=-5)
 
@@ -133,7 +144,7 @@ class Shelfie:
         my_tree.heading('Author', text='Author', anchor=W)
         my_tree.heading('Date', text='Date Added', anchor=W)
 
-        connection = sqlite3.connect('database/library.db')
+        connection = sqlite3.connect('library.db')
         curs = connection.cursor()
 
         curs.execute("SELECT rowid, title, name_first || ' ' || name_last, date(date_created) FROM shelfie ORDER BY rowid ASC;")
@@ -333,7 +344,7 @@ class Shelfie:
                 messagebox.showerror("Error!", "ISBN must be 13 digits!")
             else:
                 try:
-                    connection = sqlite3.connect('database/library.db')
+                    connection = sqlite3.connect('library.db')
                     curs = connection.cursor()
                     curs.execute(
                         "INSERT INTO shelfie (isbn, title, name_first, name_last, publisher, date_publication, binding, notes) values( ?, ?, ?, ?, ?, ?, ?, ?);",
@@ -438,7 +449,7 @@ class Shelfie:
         title_separator.place(x=100, y=80, height=2, width=800)
 
         # Establish a connection to the database by creating a cursor object
-        connection = sqlite3.connect('database/library.db')
+        connection = sqlite3.connect('library.db')
         curs = connection.cursor()
         curs.execute("SELECT rowid, * FROM shelfie WHERE rowid = ?;", [record_number])
         single_record = curs.fetchone()
@@ -609,7 +620,7 @@ class Shelfie:
         # Content in Main Frame
 
         # Establish a connection to the database by creating a cursor object
-        connection = sqlite3.connect('database/library.db')
+        connection = sqlite3.connect('library.db')
         curs = connection.cursor()
         curs.execute("SELECT rowid, * FROM shelfie WHERE rowid = ?;", [record_number])
         single_record = curs.fetchone()
@@ -722,7 +733,7 @@ class Shelfie:
                 update_none.place(x=2, y=220, width=196)
             else:
                 try:
-                    connection = sqlite3.connect('database/library.db')
+                    connection = sqlite3.connect('library.db')
                     c = connection.cursor()
                     c.execute(
                         """UPDATE shelfie SET 
@@ -838,7 +849,7 @@ class Shelfie:
         # Content in Main Frame
 
         # Establish a connection to the database by creating a cursor object
-        connection = sqlite3.connect('database/library.db')
+        connection = sqlite3.connect('library.db')
         curs = connection.cursor()
         curs.execute("SELECT rowid, * FROM shelfie WHERE rowid = ?;", [record_number])
         single_record = curs.fetchone()
@@ -991,7 +1002,7 @@ class Shelfie:
                 print(delete_record_number, delete_record_title, delete_answer)
 
                 # Connects to db to delete record using id
-                connection = sqlite3.connect('database/library.db')
+                connection = sqlite3.connect('library.db')
                 c = connection.cursor()
                 c.execute("""DELETE FROM shelfie WHERE rowid = {0};""".format(delete_record_number))
                 connection.commit()
@@ -1097,7 +1108,7 @@ class Shelfie:
         title_separator.place(x=100, y=80, height=2, width=800)
 
         # About
-        file = open('about.txt', 'r')
+        file = open('assets/copy/about.txt', 'r')
         about_content = file.read()
         about = Text(frame_1, height=20, width=50, font='Helvetica 15', wrap=WORD, highlightbackground='white', highlightthickness=0)
         about.place(x=100, y=115, width=800)
