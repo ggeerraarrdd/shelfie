@@ -16,25 +16,57 @@ ALL CONTENTS IN THIS REPO ARE FOR EDUCATIONAL PURPOSES ONLY.
 
 ## Getting Started
 
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+* [Python](https://www.python.org/) (version 3.9 or higher)
+* [git](https://git-scm.com/) (for cloning the repository)
+
 ### Dependencies
 
 * See `requirements.txt`
 
+### Installation
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/ggeerraarrdd/shelfie.git
+    ```
+
+2. **Navigate into the project directory:**
+
+    ```bash
+    cd shelfie # For example
+    ```
+
+3. **Create and activate a virtual environment:**
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+
+4. **Install the dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
 ### Usage
 
-Clone it!
+1. **Go into the app directory and run the command:**
 
-```bash
-git clone https://github.com/ggeerraarrdd/shelfie.git
-```
+    ```bash
+    python3 shelfie.py
+    ```
 
-Go into the project directory and run the command:
+2. **Log in:**
 
-```bash
-python shelfie.py
-```
+    Click `Sign in`.
 
-Click `Sign in` with the provided login credentials.
+    Note: The provided username and password are dummy credentials. The app lacks user authentication and management functionality. There is no data model or CRUD operations implemented for user accounts.
 
 ## Author(s)
 
