@@ -14,7 +14,30 @@ More screenshots below.
 
 ALL CONTENTS IN THIS REPO ARE FOR EDUCATIONAL PURPOSES ONLY.
 
-## Getting Started
+## Project Structure
+
+```text
+shelfie/
+│
+├── app/
+│   │
+│   ├── assets/
+│   │   ├── copy/
+│   │   └── images/
+│   │
+│   ├── config/
+│   │   └── __init__.py
+│   │
+│   ├── data/
+│   │
+│   └── shelfie.py
+│
+├── docs/
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
+```
 
 ## Prerequisites
 
@@ -22,6 +45,8 @@ Before you begin, ensure you have the following installed:
 
 * [Python](https://www.python.org/) (version 3.9 or higher)
 * [git](https://git-scm.com/) (for cloning the repository)
+
+## Getting Started
 
 ### Dependencies
 
