@@ -4,15 +4,37 @@ Library Management System using Tkinter in Python
 
 ## Description
 
+> [!NOTE]
+> ALL CONTENTS IN THIS REPO ARE FOR EDUCATIONAL PURPOSES ONLY.
+
 _Shelfie!_ is a GUI for a simple personal home library management system, built using the Tkinter library in Python. You can browse, add, update and delete book records saved on a SQLite database.
 
 ![Shelfie](docs/images/shelfie_1.png)
 
 More screenshots below.
 
-## Disclaimer
+## Table of Contents
 
-ALL CONTENTS IN THIS REPO ARE FOR EDUCATIONAL PURPOSES ONLY.
+* [Description](#description)
+* [Features](#features)
+* [Project Structure](#project-structure)
+* [Prerequisites](#prerequisites)
+* [Getting Started](#getting-started)
+  * [Dependencies](#dependencies)
+  * [Installation](#installation)
+  * [Usage](#usage)
+* [Author(s)](#authors)
+* [Version History](#version-history)
+* [Future Work](#future-work)
+* [License](#license)
+* [Acknowledgments](#acknowledgments)
+* [Screenshots](#screenshots)
+
+## Features
+
+* Simple and intuitive user interface built with Tkinter
+* Basic CRUD operations on book records
+* Cross-platform compatibility (Windows, macOS, Linux)
 
 ## Project Structure
 
@@ -41,7 +63,7 @@ shelfie/
 
 ## Prerequisites
 
-Before you begin, ensure you have the following installed:
+Before you begin, ensure you have met the following requirements:
 
 * [Python](https://www.python.org/) (version 3.9 or higher)
 * [git](https://git-scm.com/) (for cloning the repository)
@@ -54,26 +76,26 @@ Before you begin, ensure you have the following installed:
 
 ### Installation
 
-1. **Clone the repository:**
+1. **Clone the repository**
 
     ```bash
     git clone https://github.com/ggeerraarrdd/shelfie.git
     ```
 
-2. **Navigate into the project directory:**
+2. **Navigate into the project directory**
 
     ```bash
     cd shelfie # For example
     ```
 
-3. **Create and activate a virtual environment:**
+3. **Create and activate a virtual environment**
 
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-4. **Install the dependencies:**
+4. **Install the dependencies**
 
     ```bash
     pip install -r requirements.txt
@@ -81,13 +103,13 @@ Before you begin, ensure you have the following installed:
 
 ### Usage
 
-1. **Go into the app directory and run the command:**
+1. **Go into the app directory and run the command**
 
     ```bash
     python3 shelfie.py
     ```
 
-2. **Log in:**
+2. **Log in**
 
     Click `Sign in`.
 
@@ -111,7 +133,7 @@ Project brief as of Autumn 2022:
 
 \[Not posted.\]
 
-### Future Work
+## Future Work
 
 No ongoing development.
 
