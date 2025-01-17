@@ -18,7 +18,7 @@ ALL CONTENTS IN THIS REPO ARE FOR EDUCATIONAL PURPOSES ONLY.
 
 ### Dependencies
 
-* Pillow==10.1.0
+* See `requirements.txt`
 
 ### Usage
 
