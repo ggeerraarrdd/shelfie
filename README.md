@@ -1,6 +1,6 @@
 # Shelfie
 
-Library Management System using Tkinter in Python
+A Library Management System developed using Tkinter in Python
 
 ## Description
 
@@ -154,7 +154,7 @@ No ongoing development.
 
 ## Contributing
 
-* TBD
+This project is not accepting contributions at this time. It is intended solely for personal learning and exploration. However, feel free to clone the repository and use it as a learning resource.
 
 ## Acknowledgments
 
@@ -167,4 +167,4 @@ No ongoing development.
 
 ## Frontispiece
 
-* TBD
+Screenshot of Login page of _Shelfie!_ app featuring No. 159 - "La Bibliothèque: Vue plongeante" by Erik Desmazières. Image taken from app interface (Personal Collection, 2022). In the public domain.
