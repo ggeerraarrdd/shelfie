@@ -36,7 +36,7 @@ More screenshots below.
 
 ## Features
 
-* Simple and intuitive user interface built with Tkinter
+* Simple and intuitive user interface
 * Basic CRUD operations on book records
 * Cross-platform compatibility (Windows, macOS, Linux)
 
@@ -135,7 +135,7 @@ Before you begin, ensure you have met the following requirements:
 
 ### Initial Release
 
-The initial release of _Shelfie!_ was submitted as the final project for IS411: Introduction to Programming for Business Applications (DePaul University, Autumn 2022). That version used a PostgreSQL database instance hosted on AWS and the psycopg2 library.
+The initial release (v1.0.0) of _Shelfie!_ was submitted as a final project for [IS411: Introduction to Programming for Business Applications](https://www.cdm.depaul.edu/academics/pages/courseinfo.aspx?CrseId=015792) (DePaul University, Autumn 2022). That version used a PostgreSQL database instance hosted on AWS and the psycopg2 library.
 
 Project brief as of Autumn 2022:
 
@@ -145,7 +145,7 @@ Project brief as of Autumn 2022:
 
 No ongoing development.
 
-* ~~Clean up code~~ _(Update May 28, 2023: Code too unwieldy, so leaving Tkinter version behind and moving on to the web version from scratch.)_
+* ~~Clean up code~~ _(Update May 28, 2023: Code too unwieldy, so leaving tkinter version behind and moving on to the web version from scratch.)_
 * ~~Create a web version using a web framework (Flask or Django)~~ _(Update Oct 14, 2023: Github does not need another book management system repo)_
 
 ## License
@@ -158,7 +158,7 @@ This project is not accepting contributions at this time. It is intended solely 
 
 ## Acknowledgments
 
-* Could not have done this project without all the [Tkinter tutorials](https://www.youtube.com/playlist?list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV) by John Elder [@flatplanet](https://github.com/flatplanet).
+* Could not have done this project without all the [tkinter tutorials](https://www.youtube.com/playlist?list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV) by John Elder [@flatplanet](https://github.com/flatplanet).
 
 ## Screenshots
 
