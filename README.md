@@ -22,6 +22,7 @@ More screenshots below.
 * [Getting Started](#getting-started)
   * [Dependencies](#dependencies)
   * [Installation](#installation)
+  * [Configuration](#configuration)
   * [Usage](#usage)
 * [Author(s)](#authors)
 * [Version History](#version-history)
@@ -29,6 +30,7 @@ More screenshots below.
   * [Initial Release](#initial-release)
 * [Future Work](#future-work)
 * [License](#license)
+* [Contributing](#contributing)
 * [Acknowledgments](#acknowledgments)
 * [Screenshots](#screenshots)
 
@@ -103,6 +105,10 @@ Before you begin, ensure you have met the following requirements:
     pip install -r requirements.txt
     ```
 
+## Configuration
+
+* None
+
 ### Usage
 
 1. **Go into the app directory and run the command**
@@ -146,6 +152,10 @@ No ongoing development.
 
 * [MIT License](https://github.com/ggeerraarrdd/large-parks/blob/main/LICENSE)
 
+## Contributing
+
+* TBD
+
 ## Acknowledgments
 
 * Could not have done this project without all the [Tkinter tutorials](https://www.youtube.com/playlist?list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV) by John Elder [@flatplanet](https://github.com/flatplanet).
@@ -154,3 +164,7 @@ No ongoing development.
 
 ![Shelfie](docs/images/shelfie_2.png)
 ![Shelfie](docs/images/shelfie_3.png)
+
+## Frontispiece
+
+* TBD
