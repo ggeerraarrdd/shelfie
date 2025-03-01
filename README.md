@@ -2,20 +2,13 @@
 
 A Library Management System developed using tkinter in Python
 
-## Description
+## Table of Contents
 
 > [!NOTE]
 > ALL CONTENTS IN THIS REPO ARE FOR EDUCATIONAL PURPOSES ONLY.
 
-_Shelfie!_ is a GUI for a simple personal home library management system, developed using the tkinter library in Python. You can browse, add, update and delete book records saved on a SQLite database.
-
-![Shelfie](docs/images/shelfie_1.png)
-
-More screenshots below.
-
-## Table of Contents
-
 * [Description](#description)
+* [Target Users](#target-users)
 * [Features](#features)
 * [Project Structure](#project-structure)
 * [Prerequisites](#prerequisites)
@@ -23,7 +16,8 @@ More screenshots below.
   * [Dependencies](#dependencies)
   * [Installation](#installation)
   * [Configuration](#configuration)
-  * [Usage](#usage)
+* [Usage](#usage)
+* [System Administration](#system-administration)
 * [Author(s)](#authors)
 * [Version History](#version-history)
   * [Release Notes](#release-notes)
@@ -34,11 +28,24 @@ More screenshots below.
 * [Acknowledgments](#acknowledgments)
 * [Screenshots](#screenshots)
 
+## Description
+
+_Shelfie!_ is a GUI for a simple personal home library management system, developed using the tkinter library in Python. You can browse, add, update and delete book records saved on a SQLite database.
+
+![Shelfie](docs/images/shelfie_1.png)
+
+## Target Users
+
+_Shelfie!_ is intended for:
+
+* **Self-directed learners** who need a reference implementation of Python, in general, and GUI development with tkinter, specifically.
+
 ## Features
 
-* Simple and intuitive user interface
-* Basic CRUD operations on book records
-* Cross-platform compatibility (Windows, macOS, Linux)
+* ⚡ **Intuitive Interface** - Simple and easy-to-use graphical interface for beginners
+* 📚 **Book Management** - Straightforward CRUD operations for managing book records
+* 🗄️ **Database Integration** - SQLite database for persistent data storage
+* 🌐 **Multi-Platform** - Works across Windows, macOS, and Linux operating systems
 
 ## Project Structure
 
@@ -86,30 +93,20 @@ Before you begin, ensure you have met the following requirements:
     git clone https://github.com/ggeerraarrdd/shelfie.git
     ```
 
-2. **Navigate into the project directory**
-
-    ```bash
-    cd shelfie # For example
-    ```
-
-3. **Create and activate a virtual environment**
+2. **Setup a Python virtual environment**
 
     ```bash
     python -m venv venv
+    pip install --upgrade pip
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-
-4. **Install the dependencies**
-
-    ```bash
     pip install -r requirements.txt
     ```
 
-## Configuration
+### Configuration
 
 * None
 
-### Usage
+## Usage
 
 1. **Go into the app directory and run the command**
 
@@ -122,6 +119,10 @@ Before you begin, ensure you have met the following requirements:
     Click `Sign in`.
 
     Note: The provided username and password are dummy credentials. The app lacks user authentication and management functionality. There is no data model or CRUD operations implemented for user accounts.
+
+## System Administration
+
+* TBD
 
 ## Author(s)
 
