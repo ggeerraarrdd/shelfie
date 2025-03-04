@@ -34,7 +34,7 @@ A Library Management System developed using tkinter in Python
 
 _Shelfie!_ is a GUI for a simple personal home library management system, developed using the tkinter library in Python. You can browse, add, update and delete book records saved on a SQLite database.
 
-![Shelfie](docs/images/shelfie_1.png)
+![Shelfie](assets/images/shelfie_1.png)
 
 ## Target Users
 
@@ -67,7 +67,7 @@ shelfie/
 │   │
 │   └── shelfie.py
 │
-├── docs/
+├── assets/
 ├── .gitignore
 ├── LICENSE
 ├── README.md
@@ -76,19 +76,21 @@ shelfie/
 
 ## Quick Start
 
-  ```bash
-  # Clone the repository
-  git clone https://github.com/ggeerraarrdd/shelfie.git
+  For those who want to get up and running quickly with default settings:
 
-  # Set up environment and install dependencies
+  ```bash
+  # Clone repository
+  git clone https://github.com/ggeerraarrdd/shelfie.git
   cd shelfie
-  python -m venv venv
+
+  # Set up environment
+  python3 -m venv venv
   source venv/bin/activate  # On Windows use `venv\\Scripts\\activate`
   pip install -r requirements.txt
 
   # Run the application
   cd app
-  python shelfie.py
+  python3 shelfie.py
 
   # Click "Sign in" on the login screen
   ```
@@ -112,14 +114,20 @@ Before you begin, ensure you have met the following requirements:
 
     ```bash
     git clone https://github.com/ggeerraarrdd/shelfie.git
+    cd shelfie
     ```
 
 2. **Setup a Python virtual environment**
 
     ```bash
-    python -m venv venv
-    pip install --upgrade pip
+    python3 -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+
+3. **Install the dependencies**
+
+    ```bash
+    pip install --upgrade pip
     pip install -r requirements.txt
     ```
 
@@ -188,8 +196,8 @@ This project is not accepting contributions at this time. It is intended solely 
 
 ## Screenshots
 
-![Shelfie](docs/images/shelfie_2.png)
-![Shelfie](docs/images/shelfie_3.png)
+![Shelfie](assets/images/shelfie_2.png)
+![Shelfie](assets/images/shelfie_3.png)
 
 ## Frontispiece
 
