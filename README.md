@@ -11,12 +11,14 @@ A Library Management System developed using tkinter in Python
 * [Target Users](#target-users)
 * [Features](#features)
 * [Project Structure](#project-structure)
-* [Prerequisites](#prerequisites)
-* [Getting Started](#getting-started)
+* [Quick Start](#quick-start)
+* [Local Setup](#local-setup)
+  * [Prerequisites](#prerequisites)
   * [Dependencies](#dependencies)
   * [Installation](#installation)
   * [Configuration](#configuration)
 * [Usage](#usage)
+* [Production Setup](#production-setup)
 * [System Administration](#system-administration)
 * [Author(s)](#authors)
 * [Version History](#version-history)
@@ -72,14 +74,33 @@ shelfie/
 └── requirements.txt
 ```
 
-## Prerequisites
+## Quick Start
+
+  ```bash
+  # Clone the repository
+  git clone https://github.com/ggeerraarrdd/shelfie.git
+
+  # Set up environment and install dependencies
+  cd shelfie
+  python -m venv venv
+  source venv/bin/activate  # On Windows use `venv\\Scripts\\activate`
+  pip install -r requirements.txt
+
+  # Run the application
+  cd app
+  python shelfie.py
+
+  # Click "Sign in" on the login screen
+  ```
+
+## Local Setup
+
+### #Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
 * [Python](https://www.python.org/) (version 3.9 or higher)
 * [git](https://git-scm.com/) (for cloning the repository)
-
-## Getting Started
 
 ### Dependencies
 
@@ -119,6 +140,10 @@ Before you begin, ensure you have met the following requirements:
     Click `Sign in`.
 
     Note: The provided username and password are dummy credentials. The app lacks user authentication and management functionality. There is no data model or CRUD operations implemented for user accounts.
+
+## Production Setup
+
+* NA
 
 ## System Administration
 
