@@ -95,7 +95,7 @@ shelfie/
 
 ## Local Setup
 
-### #Prerequisites
+### Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
