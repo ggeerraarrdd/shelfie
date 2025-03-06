@@ -32,7 +32,7 @@ A Library Management System developed using tkinter in Python
 
 ## Description
 
-_Shelfie!_ is a GUI for a simple personal home library management system, developed using the tkinter library in Python. You can browse, add, update and delete book records saved on a SQLite database.
+_Shelfie!_ is a reference implementation of a simple [relational database management system](https://en.wikipedia.org/wiki/Relational_database#RDBMS) (RDBMS) emulating a [library management system](https://en.wikipedia.org/wiki/Integrated_library_system) (LMS). With a graphical user interface (GUI) developed using the [tkinter](https://docs.python.org/3/library/tkinter.html) module in the Python standard library, it supports CRUD operations on book records stored on a SQLite database.
 
 ![Shelfie](assets/images/shelfie_1.png)
 
@@ -40,7 +40,7 @@ _Shelfie!_ is a GUI for a simple personal home library management system, develo
 
 _Shelfie!_ is intended for:
 
-* **Self-directed learners** who need a reference implementation of Python, in general, and GUI development with tkinter, specifically.
+* **Self-directed learners** who need a reference implementation of Python, in general, and GUI development with tkinter, specifically, integrated with a library management system.
 
 ## Features
 
@@ -117,7 +117,7 @@ Before you begin, ensure you have met the following requirements:
     cd shelfie
     ```
 
-2. **Setup a Python virtual environment**
+2. **Set up a Python virtual environment**
 
     ```bash
     python3 -m venv venv
@@ -169,7 +169,7 @@ Before you begin, ensure you have met the following requirements:
 
 ### Initial Release
 
-The initial release (v1.0.0) of _Shelfie!_ was submitted as a final project for [IS411: Introduction to Programming for Business Applications](https://www.cdm.depaul.edu/academics/pages/courseinfo.aspx?CrseId=015792) (DePaul University, Autumn 2022). That version used a PostgreSQL database instance hosted on AWS and the psycopg2 library.
+The initial release (v1.0.0) of _Shelfie!_ was submitted as a final project for [IS411: Introduction to Programming for Business Applications](https://www.cdm.depaul.edu/academics/pages/courseinfo.aspx?CrseId=015792) (DePaul University, Autumn 2022). That version used a PostgreSQL database instance hosted on AWS and psycopg2, a PostgreSQL database adapter for Python.
 
 Project brief as of Autumn 2022:
 
