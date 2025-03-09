@@ -1,3 +1,12 @@
+<!-- markdownlint-disable MD041 -->
+[![GitHub release](https://img.shields.io/github/v/release/ggeerraarrdd/shelfie)](https://github.com/ggeerraarrdd/shelfie/releases)
+[![Maintenance](https://img.shields.io/badge/maintained-no-red.svg)](https://github.com/ggeerraarrdd/lafs-cms/graphs/commit-activity)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/069a59f627984871936e02f13e8c98e0)](https://app.codacy.com/gh/ggeerraarrdd/shelfie/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![codecov](https://codecov.io/gh/ggeerraarrdd/shelfie/graph/badge.svg?token=NAHYDRQVQE)](https://codecov.io/gh/ggeerraarrdd/shelfie)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ggeerraarrdd_shelfie&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ggeerraarrdd_shelfie)
+[![Renovate enabled](https://img.shields.io/badge/renovate-disabled-red.svg)](https://renovatebot.com/)
+<!-- markdownlint-enable MD041 -->
+
 # Shelfie
 
 A Library Management System developed using tkinter in Python
@@ -40,7 +49,7 @@ _Shelfie!_ is a reference implementation of a simple [relational database manag
 
 _Shelfie!_ is intended for:
 
-* **Self-directed learners** who need a reference implementation of Python, in general, and GUI development with tkinter, specifically, integrated with a library management system.
+* **Self-directed learners** needing a reference implementation of Python, in general, and GUI development with tkinter, specifically, integrated with a library management system.
 
 ## Features
 
